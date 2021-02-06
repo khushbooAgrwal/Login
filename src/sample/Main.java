@@ -23,6 +23,7 @@ public class Main extends Application {
         DatabaseConnection connection = new DatabaseConnection();
         connection.createConnection();
         UserValueFetcher userValueFetcher = new UserValueFetcher();
+        //User user = new User();
         System.out.println(userValueFetcher.fetchUser(
                 "khushboo.agrawal_cs.da19@gla.ac.in",
                 connection.getConnection()

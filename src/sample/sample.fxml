@@ -12,7 +12,7 @@
       <ImageView fx:id="imagegla" fitHeight="230.0" fitWidth="183.0" layoutX="50.0" layoutY="91.0" pickOnBounds="true"
                  preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/Khushboo%20Agrawal/IdeaProjects/calculator/src/sample/GLA_University_logo.png"/>
+            <Image url="@../res/GLA_University_logo.png"/>
          </image>
       </ImageView>
       <Label fx:id="Emaillabel" layoutX="268.0" layoutY="169.0" text="Email ">

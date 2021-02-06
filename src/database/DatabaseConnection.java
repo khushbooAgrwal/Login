@@ -29,5 +29,6 @@ public class DatabaseConnection {
         }
         return connection != null;
     }
+
 }
 //ctrl+alt+shift+L ... format
